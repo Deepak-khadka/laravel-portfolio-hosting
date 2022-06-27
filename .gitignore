@@ -1,0 +1,28 @@
+/node_modules
+/public/hot
+/public/storage
+/public/documents
+/storage/*.key
+/storage
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.idea
+storage/debugbar/
+form.yml
+.phpstorm.meta.php
+_ide_helper.php
+*.zip
+storage/app/data/*.csv
+.git-old/
+package-lock.json
+public/robots.txt
+
+# ignoring as of now
+# todo: remove app.js
+public/js/app.js
