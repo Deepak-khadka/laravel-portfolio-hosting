@@ -10,6 +10,7 @@ final class Pages {
     public const EDUCATION = "education";
     public const BLOGS = "blogs";
     public const CONTACT = "contact";
+    public const LOGIN = 'secure-login';
 
     public static array $current = [
         self::ABOUT_US => true,
@@ -19,5 +20,6 @@ final class Pages {
         self::EDUCATION => true,
         self::BLOGS => true,
         self::CONTACT => true,
+        self::LOGIN => true,
     ];
 }
