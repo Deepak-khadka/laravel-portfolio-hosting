@@ -1,0 +1,471 @@
+:root {
+  --gray-color: #6c757d;
+  --primary-link-color: #8583e1;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link {
+  color: #eee;
+}
+
+.circle {
+  border: 15px #ddd solid;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-color {
+  background-color: #100f3a;
+}
+
+.info-box {
+  color: white;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover,
+.nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: var(--primary-link-color);
+}
+
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0px;
+  padding: 10px 20px;
+}
+
+.btn {
+  padding: 10px 20px !important;
+}
+
+.ul-bg {
+  background-color: #100f3a;
+}
+
+.skills-icons i {
+  color: var(--primary-link-color);
+}
+
+.quote-button {
+  background-color: var(--primary-link-color);
+  color: white;
+}
+
+.quote-button:hover {
+  color: white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 1);
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0px;
+}
+
+.services-icons i {
+  color: var(--primary-link-color);
+}
+
+.experience-freelance-button {
+  background-color: var(--primary-link-color);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.dark_color {
+  background-color: #100f3a;
+
+}
+
+.btn-hover-shadow:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 1) !important;
+
+}
+
+.experience-freelance-button:hover {
+  background-color: #100f3a;
+}
+
+.experience-freelance-button:hover p {
+  color: rgb(255, 255, 255);
+}
+
+.exp-text-color {
+  color: var(--primary-link-color);
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.form-control {
+  border-bottom: 3px solid #ced4da;
+  border-top: #ced4da;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+}
+
+.form-control:hover {
+  border-bottom: 3px solidvar(--primary-link-color);
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: transparent;
+  border-color: var(--primary-link-color);
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+.gen-info-content {
+  margin-bottom: 10px;
+}
+
+.info-box .title {
+  color: var(--gray-color);
+}
+
+.info-box .value {
+  color: white;
+}
+
+.social-links {
+  color: var(--gray-color);
+}
+
+.social-links:hover {
+  color: var(--primary-link-color);
+}
+
+.skill-percentage {
+  color: var(--primary-link-color);
+}
+
+
+.my-name {
+  font-size: 4rem;
+}
+
+.profile_img {
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.object-fit-property {
+  object-fit: cover;
+  object-position: top;
+}
+
+.text-gray {
+  color: var(--gray-color);
+}
+
+.text-secondary-color {
+  color: var(--primary-link-color);
+}
+
+.mt-200px {
+  margin-top: 200px;
+}
+
+.mt-300px {
+  margin-top: 300px;
+}
+
+.bachelor-year {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--primary-link-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top: 0px;
+  right: -39%;
+}
+
+.hseb_year {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--primary-link-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top: 0px;
+  left: -39%;
+}
+
+.slc_year {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--primary-link-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top: 0px;
+  right: -39%;
+}
+
+.text-overflow-3-lines {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blogs-hover img {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.blogs-hover img::before {
+  z-index: 99;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display: block;
+}
+
+.toggleButton {
+  background-color: black;
+  text-decoration: none;
+  color: var(--primary-link-color);
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-weight: 500;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleButton:hover {
+  color: var(--primary-link-color);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 1);
+  border-radius: 5px !important;
+}
+
+.offcanvas-start {
+  width: 50vw;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-link-color);
+}
+
+.offconvas_toggle {
+  background-color: #030229 !important;
+  position: absolute;
+  top: 0px;
+  right: -13px;
+  z-index: 9999;
+  padding: 40px 10px !important;
+  border: 0px !important;
+}
+
+.logo_img {
+  width: 120px;
+}
+
+.logo_sm_img {
+  width: 150px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.bar2,
+.bar3 {
+  width: 60px;
+  height: 5px;
+  background-color: #eeeeee;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar1 {
+  width: 40px;
+  height: 5px;
+  background-color: #eeeeee;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+  width: 60px !important;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media(max-width:1400px) {
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .fs-2,
+  .fs-3,
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .value,
+  .title,
+  p {
+    font-size: 14px !important;
+  }
+}
+
+@media(max-width:1200px) {
+  .profile_img {
+    height: 300px;
+  }
+
+  .fs-2,
+  .fs-3,
+  h2 {
+    font-size: 1.1rem !important;
+  }
+
+  .my-name {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width:576px) {
+  .offcanvas-start {
+    width: 80vw;
+  }
+
+  body {
+    background-color: #100f3a;
+
+  }
+
+  .bg-light {
+    background-color: #100f3a !important;
+
+  }
+
+
+  p,
+  h6 {
+    color: #eee !important;
+  }
+
+  .my-name {
+    font-size: 2.5rem;
+    color: var(--primary-link-color);
+  }
+
+  .text-secondary,
+  .fs-1,
+  h5,
+  h4,
+  .form-control {
+    color: white !important;
+  }
+
+  h5,
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  .bachelor-year,
+  .slc_year {
+    width: 50px;
+    height: 50px;
+    right: -50%;
+
+  }
+
+  .mt-sm-281px {
+    margin-top: 270px !important;
+  }
+
+  .hseb_year {
+    width: 50px;
+    height: 50px;
+    left: -50%;
+  }
+
+  .card {
+    background-color: #100f3a;
+    border: 1px solid #eeeeee;
+  }
+
+  .min-height-100vh {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+}
+
+.white_btn {
+  background-color: white;
+  font-weight: bold;
+  color: var(--primary-link-color) !important;
+}

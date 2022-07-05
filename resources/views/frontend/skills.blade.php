@@ -1,0 +1,114 @@
+
+@extends('frontend.layouts.master')
+
+@section('content')
+    <div class="ps-sm-5 mt-sm-5">
+        <div>
+            <div class="row">
+                <div class="col-12">
+                    <div class=" mb-5">
+                        <p class="fw-light text-secondary fs-5 mb-2 mb-lg-0">What I am good at</p>
+                        <h1 class="fw-bolder fs-1">My Skills</h1>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mt-2">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>The best yardstick for our progress is not other people, but ourselves. Am I better than I was yesterday? This is the only question worth asking. As long as you go to bed at night a better practitioner than the one who woke up that morning, you have succeeded. Your worth should have nothing to do with how your progress stacks up relative to another.</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p>In a world that is constantly changing, there is no one subject or set of subjects that will serve you for the foreseeable future, let alone for the rest of your life. The most important skill to acquire now is learning how to learn.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="my-5">
+                            <div class="row">
+                                <div class="col-6 col-md-4 mb-4">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>HTML-5</p>
+                                            <p>70%</p>
+                                        </div>
+                                        <div class="progress" style="height: 5px;">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 mb-4">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>Javascript</p>
+                                            <p>65%</p>
+                                        </div>
+                                        <div class="progress" style="height: 5px;">
+                                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 65%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 mb-4">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>CSS</p>
+                                            <p>80%</p>
+                                        </div>
+                                        <div class="progress" style="height: 5px;">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 mb-4">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>JQuery</p>
+                                            <p>50%</p>
+                                        </div>
+                                        <div class="progress" style="height: 5px;">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 mb-4">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>React JS</p>
+                                            <p>75%</p>
+                                        </div>
+                                        <div class="progress" style="height: 5px;">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 75%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 mb-4">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>Node JS</p>
+                                            <p>40%</p>
+                                        </div>
+                                        <div class="progress" style="height: 5px;">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 40%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 mb-4">
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>React Native</p>
+                                            <p>45%</p>
+                                        </div>
+                                        <div class="progress" style="height: 5px;">
+                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 45%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+@endsection
