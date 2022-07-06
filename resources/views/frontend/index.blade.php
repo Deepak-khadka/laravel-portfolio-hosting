@@ -24,7 +24,7 @@
                         <div class="row d-flex justify-content-center align-items-center">
                             <div class="col-sm-4 mb-4 mb-sm-1">
                                 <div class="text-sm-center">
-                                    <img src="./images/idea (1).png" alt="img-fluid" class="mb-2 mb-sm-0">
+                                    <img src="{{ asset('assets/images/idea (1).png') }}" alt="img-fluid" class="mb-2 mb-sm-0">
                                     <p class=" fw-bold fs-5">Problem Solving</p>
                                     <p class="">
                                         “We can not solve our problems with the same level of thinking that created them.”
@@ -33,7 +33,7 @@
                             </div>
                             <div class="col-sm-4 mb-4 mb-sm-1">
                                 <div class="text-sm-center">
-                                    <img src="./images//working.png" alt="img-fluid" class="mb-2 mb-sm-0">
+                                    <img src="{{ asset('assets/images/working.png') }}" alt="img-fluid" class="mb-2 mb-sm-0">
                                     <p class=" fw-bold fs-5">Hard Working</p>
                                     <p class="">
                                         “Hard work beats talent when talent does not work ”
@@ -42,7 +42,7 @@
                             </div>
                             <div class="col-sm-4 mb-4 mb-sm-1">
                                 <div class="text-sm-center">
-                                    <img src="./images/communication.png" alt="img-fluid" class="mb-2 mb-sm-0">
+                                    <img src="{{ asset('assets/images/communication.png') }}" alt="img-fluid" class="mb-2 mb-sm-0">
                                     <p class=" fw-bold fs-5">Communication</p>
                                     <p class="">
                                         “Good communication is bridge between confusion and clarity.”

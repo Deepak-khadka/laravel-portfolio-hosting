@@ -17,7 +17,7 @@
                     <div class="row">
                         <div class="col-2">
                             <div class="services-icons">
-                                <img src="images/prototyping.png" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/images/prototyping.png') }}" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-10">
@@ -32,7 +32,7 @@
                     <div class="row">
                         <div class="col-2">
                             <div class="services-icons">
-                                <img src="./images/graphic-design.png" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/images/graphic-design.png') }}" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-10">
@@ -47,7 +47,7 @@
                     <div class="row">
                         <div class="col-2">
                             <div class="services-icons">
-                                <img src="./images/ux-interface.png" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/images/ux-interface.png') }}" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-10">
@@ -62,7 +62,7 @@
                     <div class="row">
                         <div class="col-2">
                             <div class="services-icons">
-                                <img src="./images/sketch.png" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/images/sketch.png') }}" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-10">
@@ -79,7 +79,7 @@
                     <div class="row">
                         <div class="col-2">
                             <div class="services-icons">
-                                <img src="./images/testing.png" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/images/testing.png') }}" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-10">
@@ -94,7 +94,7 @@
                     <div class="row">
                         <div class="col-2">
                             <div class="services-icons">
-                                <img src="./images/customer-support.png" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/images/customer-support.png') }}" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-10">
@@ -107,7 +107,7 @@
                 </div>
 
                 <div class="mt-sm-5">
-                    <a href="contact.html" class="quote-button btn px-5 py-3 fw-boldtext-decoration-none">Ask
+                    <a href="{{ route('get-page-name', 'contact') }}" class="quote-button btn px-5 py-3 fw-boldtext-decoration-none">Ask
                         for a
                         Quote</a>
                 </div>

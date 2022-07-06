@@ -9,7 +9,7 @@
         <div class="">
             <div class="img position-relative">
                 <a type="button" class="btn btn-dark text-white text-end mb-0 ms-auto offconvas_toggle" data-bs-dismiss="offcanvas"><i class="fa-solid fa-chevron-right fa-2x"></i></a>
-                <img src="./images/profile.jpg" alt="me image" class="img-fluid profile_img">
+                <img src="{{ asset('assets/images/profile.jpg') }}" alt="me image" class="img-fluid profile_img">
                 <a type="button" class="toggleButton btn p-2" id="seeMoreInfo"><i class="fa-solid fa-eye"></i></a>
             </div>
             <div class="my-4" style="display:none " id="general_info_box">
@@ -55,7 +55,7 @@
                         <div class="ms-xl-3">
                             <div class="info-box">
                                 <p class="d-flex mx-auto title mb-0">Mail:<span class="ms-2 value">
-                                            lalbahdurbc2054@gmail.com
+                                            demo.deepak-khadka@gmail.com
                                         </span>
                                 </p>
                             </div>
@@ -72,7 +72,7 @@
                         <div class="ms-xl-3">
                             <div class="info-box">
                                 <p class="d-flex mx-auto title mb-0">Phone Number:<span class="ms-2 fs-6 value">
-                                            9865818795
+                                            98145....0
                                         </span>
                                 </p>
                             </div>
@@ -89,7 +89,7 @@
                         <div class="ms-xl-3">
                             <div class="info-box">
                                 <p class="d-flex mx-auto title mb-0">Website:<a href="#" class=" text-decoration-none  ms-2 fs-6 value">
-                                        lalbahadurbc.com.np
+                                        demo.deepak-khadka.com.np
                                     </a>
                                 </p>
                             </div>
@@ -97,32 +97,39 @@
                     </div>
                 </div>
             </div>
+            {{-- Mobile UI --}}
             <ul class="nav ul-bg nav-pills justify-content-start flex-column my-4" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <a href="about-us.html" class="nav-link active" type="button" role="tab" aria-controls="pills-about" aria-selected="true"><i class="fa-solid fa-address-card me-4"></i> About Me</a>
+                    <a href="{{ route('home') }}" class="nav-link {{ request()->is('/') ? 'active' : '' }}" type="button" role="tab" aria-controls="pills-about" aria-selected="true"><i class="fa-solid fa-address-card me-4"></i> About Me</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="skill.html" class="nav-link" type="button" role="tab" aria-controls="pills-skills" aria-selected="false"><i class="fa-solid fa-code me-4"></i>My Skills</a>
+                    <a href="{{ route('get-page-name', 'skills') }}"
+                       class="nav-link {{ request()->is('skills') ? 'active' : '' }}" type="button" role="tab" aria-controls="pills-skills" aria-selected="false"><i class="fa-solid fa-code me-4"></i>My Skills</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="service.html" class="nav-link" type="button" role="tab" aria-controls="pills-Services" aria-selected="false"><i class="fa-solid fa-screwdriver-wrench me-4"></i>My Services</a>
+                    <a href="{{ route('get-page-name', 'service') }}"
+                       class="nav-link {{ request()->is('service') ? 'active' : '' }}" type="button" role="tab" aria-controls="pills-Services" aria-selected="false"><i class="fa-solid fa-screwdriver-wrench me-4"></i>My Services</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="experience.html" class="nav-link" type="button" role="tab" aria-controls="pills-experience" aria-selected="false"><i class="fa-solid fa-display me-4"></i>My Experience</a>
+                    <a href="{{ route('get-page-name', 'experience') }}"
+                       class="nav-link {{ request()->is('experience') ? 'active' : '' }}"  type="button" role="tab" aria-controls="pills-experience" aria-selected="false"><i class="fa-solid fa-display me-4"></i>My Experience</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="education.html" class="nav-link" type="button" role="tab" aria-controls="pills-Education" aria-selected="false"><i class="fa-solid fa-graduation-cap me-4"></i>My Education</a>
+                    <a href="{{ route('get-page-name', 'education') }}"
+                       class="nav-link {{ request()->is('education') ? 'active' : '' }}"  type="button" role="tab" aria-controls="pills-Education" aria-selected="false"><i class="fa-solid fa-graduation-cap me-4"></i>My Education</a>
                 </li>
                 <li class="nav-item" role="presentation">
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="blog.html" class="nav-link" type="button" role="tab" aria-controls="pills-Testimonials" aria-selected="false"><i class="fa-brands fa-microblog me-4"></i>My Blogs</a>
+                    <a href="{{ route('get-page-name', 'blogs') }}"
+                       class="nav-link {{ request()->is('blogs') ? 'active' : '' }}"  type="button" role="tab" aria-controls="pills-Testimonials" aria-selected="false"><i class="fa-brands fa-microblog me-4"></i>My Blogs</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="contact.html" class="nav-link" type="button" role="tab" aria-controls="pills-Contact" aria-selected="false"><i class="fa-solid fa-envelope-open-text me-4"></i>Contact Me</a>
+                    <a href="{{ route('get-page-name', 'contact') }}"
+                       class="nav-link {{ request()->is('contact') ? 'active' : '' }}"  type="button" role="tab" aria-controls="pills-Contact" aria-selected="false"><i class="fa-solid fa-envelope-open-text me-4"></i>Contact Me</a>
                 </li>
             </ul>
-            <a href="images/lal_bdr_bc.jpg" class="d-block btn w-100 white_btn" target="_blank">
+            <a href="{{ asset('assets/images/lal_bdr_bc.jpg') }}" class="d-block btn w-100 white_btn" target="_blank">
                 DownLoad CV
             </a>
         </div>

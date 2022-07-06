@@ -22,7 +22,7 @@ storage/app/data/*.csv
 .git-old/
 package-lock.json
 public/robots.txt
-
+storage*
 # ignoring as of now
 # todo: remove app.js
 public/js/app.js

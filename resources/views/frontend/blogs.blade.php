@@ -20,8 +20,8 @@
                             <div class="card">
                                 <div class="card-body p-0">
                                     <div class="blog-box overflow-hidden border-bottom">
-                                        <a href="https://www.javatpoint.com/html-tags" target="_blank" class="blogs-hover">
-                                            <img src="images/HTML5_sticker.png" alt="blog-img" class="object-fit-property">
+                                        <a href="#" class="blogs-hover">
+                                            <img src="{{ asset('assets/images/HTML5_sticker.png') }}" alt="blog-img" class="object-fit-property">
                                         </a>
                                     </div>
                                     <div class="p-4">
@@ -41,8 +41,8 @@
                             <div class="card">
                                 <div class="card-body p-0">
                                     <div class="blog-box overflow-hidden border-bottom">
-                                        <a href="https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_toggle" class="" target="_blank">
-                                            <img src="images/Logo_jQuery.svg.png" alt="blog-img" height="200px" width="100%" class="object-fit-property">
+                                        <a href="#" class="">
+                                            <img src="{{ asset('assets/images/Logo_jQuery.svg.png') }}" alt="blog-img" height="200px" width="100%" class="object-fit-property">
                                         </a>
                                     </div>
                                     <div class="p-4">
@@ -63,8 +63,8 @@
                             <div class="card">
                                 <div class="card-body p-0">
                                     <div class="blog-box overflow-hidden border-bottom">
-                                        <a href="https://animate.style" class="" target="_blank">
-                                            <img src="images/images.jpg" alt="blog-img" height="200px" width="100%" class="object-fit-property">
+                                        <a href="#" class="">
+                                            <img src="{{ asset('assets/images/images.jpg') }}" alt="blog-img" height="200px" width="100%" class="object-fit-property">
                                         </a>
                                     </div>
                                     <div class="p-4">
@@ -82,8 +82,8 @@
                             <div class="card">
                                 <div class="card-body p-0">
                                     <div class="blog-box overflow-hidden border-bottom">
-                                        <a href="https://owlcarousel2.github.io/OwlCarousel2/" class="" target="_blank">
-                                            <img src="images/how-to-add-owl-carousel-slider-in-html.jpg" alt="blog-img" height="200px" width="100%" class="object-fit-property">
+                                        <a href="#" class="">
+                                            <img src="{{ asset('assets/images/how-to-add-owl-carousel-slider-in-html.jpg') }}" alt="blog-img" height="200px" width="100%" class="object-fit-property">
                                         </a>
                                     </div>
                                     <div class="p-4">
@@ -92,7 +92,7 @@
                                             How to Use Slider
                                         </h4>
                                         <p class="mb-0 text-overflow-3-lines">
-                                            Owl Carousel has been choosen as number one jQuery plugin by hundreds of developers. Now its time for a new version that comes with lots of new features and even more user friendly API.
+                                            Owl Carousel has been chosen as number one jQuery plugin by hundreds of developers. Now its time for a new version that comes with lots of new features and even more user friendly API.
                                     </div>
                                 </div>
                             </div>
