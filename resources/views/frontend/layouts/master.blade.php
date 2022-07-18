@@ -9,7 +9,7 @@
         <div class="">
             <div class="img position-relative">
                 <a type="button" class="btn btn-dark text-white text-end mb-0 ms-auto offconvas_toggle" data-bs-dismiss="offcanvas"><i class="fa-solid fa-chevron-right fa-2x"></i></a>
-                <img src="{{ asset('assets/images/profile.jpg') }}" alt="me image" class="img-fluid profile_img">
+                <img src="{{ asset('assets/images/deepak-image.jpg') }}" alt="me image" class="img-fluid profile_img">
                 <a type="button" class="toggleButton btn p-2" id="seeMoreInfo"><i class="fa-solid fa-eye"></i></a>
             </div>
             <div class="my-4" style="display:none " id="general_info_box">

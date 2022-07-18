@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-4 d-none d-lg-block ">
             <div class="img">
-                <img src="{{ asset('assets/images/profile.jpg') }}" alt="me image" class="img-fluid profile_img">
+                <img src="{{ asset('assets/images/deepak-image.jpg') }}" alt="me image" class="img-fluid profile_img">
             </div>
             <div class="box-color m-0 p-0 ">
                 <div class="row gen center">
