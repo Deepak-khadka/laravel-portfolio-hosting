@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\frontend\HomeController;
 use Illuminate\Support\Facades\Route;
@@ -25,3 +26,7 @@ Route::get('pages/{pageName}', [HomeController::class, 'getPageName'])->name('ge
 
 Route::get('/admin/dashboard', [AdminController::class, 'index'])->middleware('auth', 'web')->name('admin.dashboard');
 Route::post('contact', [HomeController::class, 'submitContact'] )->name('contact.post');
+
+Route::group(['name' => 'admin.', 'middleware' => 'auth', 'as' => 'admin.', 'prefix' => 'admin'], function () {
+    Route::resource('contact', ContactController::class);
+});

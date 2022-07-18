@@ -4,6 +4,7 @@
     <title>@yield('title', config('app.name'))</title>
 
     @include('admin.layouts.partials.head')
+    @stack('style')
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -19,5 +20,6 @@
 </div>
 
 @include('admin.layouts.partials.script')
+@stack('script')
 </body>
 </html>
