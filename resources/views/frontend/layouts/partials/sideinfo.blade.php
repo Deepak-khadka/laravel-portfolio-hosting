@@ -10,7 +10,8 @@
                     <div class="row gen-info-content mb-3">
                         <div class="col-2 ">
                             <div class="text-end">
-                                <img src="https://preview.colorlib.com/theme/vcard2/images/xicon_1.png.pagespeed.ic.W3Kdj3mRjR.webp" alt="" class="">
+                                <img src="https://preview.colorlib.com/theme/vcard2/images/xicon_1.png.pagespeed.ic.W3Kdj3mRjR.webp"
+                                     alt="" class="">
                             </div>
                         </div>
                         <div class="col-10">
@@ -26,7 +27,8 @@
                     <div class="row gen-info-content mb-3">
                         <div class="col-2">
                             <div class="text-end">
-                                <img src="https://preview.colorlib.com/theme/vcard2/images/icon_2.png.webp" alt="" class="">
+                                <img src="https://preview.colorlib.com/theme/vcard2/images/icon_2.png.webp" alt=""
+                                     class="">
                             </div>
                         </div>
                         <div class="col-10">
@@ -42,7 +44,8 @@
                     <div class="row gen-info-content mb-3">
                         <div class="col-2">
                             <div class="text-end">
-                                <img src="https://preview.colorlib.com/theme/vcard2/images/xicon_3.png.pagespeed.ic.7gX_3UP2Du.webp" alt="" class="">
+                                <img src="https://preview.colorlib.com/theme/vcard2/images/xicon_3.png.pagespeed.ic.7gX_3UP2Du.webp"
+                                     alt="" class="">
                             </div>
                         </div>
                         <div class="col-10">
@@ -59,7 +62,8 @@
                     <div class="row gen-info-content mb-3">
                         <div class="col-2">
                             <div class="text-end">
-                                <img src="https://preview.colorlib.com/theme/vcard2/images/xicon_4.png.pagespeed.ic.GehJAnOSHc.webp" alt="" class="">
+                                <img src="https://preview.colorlib.com/theme/vcard2/images/xicon_4.png.pagespeed.ic.GehJAnOSHc.webp"
+                                     alt="" class="">
                             </div>
                         </div>
                         <div class="col-10">
@@ -76,13 +80,15 @@
                     <div class="row gen-info-content mb-3">
                         <div class="col-2">
                             <div class="text-end">
-                                <img src="https://preview.colorlib.com/theme/vcard2/images/xicon_5.png.pagespeed.ic.A5Xrzq2S8n.webp" alt="" class="">
+                                <img src="https://preview.colorlib.com/theme/vcard2/images/xicon_5.png.pagespeed.ic.A5Xrzq2S8n.webp"
+                                     alt="" class="">
                             </div>
                         </div>
                         <div class="col-10">
                             <div class="ms-xl-3">
                                 <div class="info-box">
-                                    <p class="d-flex mx-auto title mb-0">Website:<a href="#" class=" text-decoration-none  ms-2 fs-6 value">
+                                    <p class="d-flex mx-auto title mb-0">Website:<a href="#"
+                                                                                    class=" text-decoration-none  ms-2 fs-6 value">
                                             lalbahadurbc.com.np
                                         </a>
                                     </p>

@@ -24,3 +24,4 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('pages/{pageName}', [HomeController::class, 'getPageName'])->name('get-page-name');
 
 Route::get('/admin/dashboard', [AdminController::class, 'index'])->middleware('auth', 'web')->name('admin.dashboard');
+Route::post('contact', [HomeController::class, 'submitContact'] )->name('contact.post');

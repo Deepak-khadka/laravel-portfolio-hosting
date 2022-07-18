@@ -4,6 +4,10 @@ namespace App\Http\Controllers\frontend;
 
 use App\Http\Controllers\Controller;
 use App\Foundation\Lib\Pages;
+use App\Http\Requests\ContactFormRequestStore;
+use App\Models\Contact;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 
 class HomeController extends Controller
 {
@@ -22,4 +26,23 @@ class HomeController extends Controller
 
     }
 
+    public function submitContact(ContactFormRequestStore $request)
+    {
+        $validatedData = $request->validated();
+        Contact::create($validatedData);
+
+        Http::post('https://discord.com/api/webhooks/998427005156606024/PCOYKSTeogBRAe8bfEPGKKN_TTYIxLJpqbpiDvi-SpNeysaQW_X0VatdZaAiLmgW5S6Q', [
+            'content' => $validatedData['subject'] ." by ( " . $validatedData['full_name'] . ")",
+            'embeds' => [
+                [
+                    'title' => "Email : ". $validatedData['email'],
+                    'description' => $validatedData['description'],
+                    'color' => '7506394',
+                ]
+            ],
+        ]);
+
+        return redirect()->back();
+
+    }
 }

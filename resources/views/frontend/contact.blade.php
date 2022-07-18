@@ -22,16 +22,36 @@
                                         You gain other avenues of understanding.
                                     </p>
                                     <div class="alert alert-success  mt-5 text-primary" role="alert" style="display:none ;" id="success_alert">
-                                        Thak you for your precious message
+                                        Thank you for your precious message
                                     </div>
 
-                                    <form onsubmit="return false" class="">
-                                        <input type="text" name="fullname" class="form-control rounded-0 mb-3 p-3" placeholder="Name" required>
-                                        <input type="email" name="email" class="form-control rounded-0 mb-3 p-3" placeholder="E-mail" autocomplete="off" required>
-                                        <input type="text" name="subject" class="form-control rounded-0 mb-3 p-3" placeholder="Subject" required>
-                                        <textarea name="description" class="form-control rounded-0 mb-3 p-3" id="" cols="30" rows="4" placeholder="Message" required></textarea>
-                                        <button type="submit" class="btn quote-button mt-5 text-decoration-none p-3" onclick="sendEmail()">Send
-                                            Message</button>
+                                    <form action="{{ route('contact.post') }}" method="POST" id="contact-form">
+                                        @csrf
+
+                                        <input type="text" value="{{ old('full_name') }}" name="full_name" class="form-control rounded-0 mb-3 p-3" placeholder="Name" required>
+                                         @error('full_name')
+                                            <div class="error">{{ $message }}</div>
+                                        @enderror
+
+                                        <input type="email" value="{{ old('email') }}" name="email" class="form-control rounded-0 mb-3 p-3" placeholder="E-mail" autocomplete="off" required>
+
+                                        @error('email')
+                                        <div class="error">{{ $message }}</div>
+                                        @enderror
+
+                                        <input type="text" value="{{ old('subject') }}" name="subject" class="form-control rounded-0 mb-3 p-3" placeholder="Subject" required>
+
+                                        @error('subject')
+                                        <div class="error">{{ $message }}</div>
+                                        @enderror
+
+                                        <textarea name="description" class="form-control rounded-0 mb-3 p-3" id="" cols="30" rows="4" placeholder="Message" required>{!! old('description') !!}</textarea>
+
+                                        @error('description')
+                                        <div class="error">{{ $message }}</div>
+                                        @enderror
+
+                                        <button type="submit" class="btn quote-button mt-5 text-decoration-none p-3">Send Message</button>
                                     </form>
                                 </div>
                             </div>
