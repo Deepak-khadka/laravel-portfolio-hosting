@@ -31,7 +31,7 @@ class HomeController extends Controller
         $validatedData = $request->validated();
         Contact::create($validatedData);
 
-        Http::post('https://discord.com/api/webhooks/998427005156606024/PCOYKSTeogBRAe8bfEPGKKN_TTYIxLJpqbpiDvi-SpNeysaQW_X0VatdZaAiLmgW5S6Q', [
+        Http::post(config('neputer.web_hook'), [
             'content' => $validatedData['subject'] ." by ( " . $validatedData['full_name'] . ")",
             'embeds' => [
                 [
