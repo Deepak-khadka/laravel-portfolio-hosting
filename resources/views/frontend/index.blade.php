@@ -7,16 +7,16 @@
             <div class=" row">
                 <div class="col-12">
                     <div class="mb-5">
-                        <p class="fw-light text-secondary fs-3 mb-0">Frontend Developer [ React JS ]</p>
-                        <h1 class="fw-bolder fs-bolder my-name ">Lal Bahadur BC</h1>
+                        <p class="fw-light text-secondary fs-3 mb-0">Web Developer [ Laravel, React JS ]</p>
+                        <h1 class="fw-bolder fs-bolder my-name ">Deepak Khadka</h1>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="mb-5">
                         <p class="fw-bolder fs-5">About Me</p>
-                        <p>" Innovative Front End Developer with 1.5 years experience building
+                        <p>" Innovative Back End Developer with 1.5 years experience building
                             and maintaining responsive websites in the recruiting industry.
-                            Proficient in HTML, CSS, jQuery, JavaScript, React JS and React Native; plus
+                            Proficient in Laravel, HTML, CSS, jQuery, JavaScript, React JS and React Native; plus
                             modern libraries and frameworks. Passionate about usability and
                             possess working knowledge of Figma. "</p>
                     </div>

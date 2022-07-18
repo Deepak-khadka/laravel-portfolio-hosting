@@ -22,7 +22,7 @@
                     <div class="col-10">
                         <div class="ms-xl-3">
                             <div class="info-box">
-                                <p class="d-flex text-center mb-0 title">Name:<span class="ms-2 value">Lal Bahadur BC
+                                <p class="d-flex text-center mb-0 title">Name:<span class="ms-2 value">Deepak Khadka
                                         </span>
                                 </p>
                             </div>
@@ -38,7 +38,7 @@
                     <div class="col-10">
                         <div class="ms-xl-3">
                             <div class="info-box">
-                                <p class="d-flex text-center title mb-0">Date of Birth:<span class="ms-2 value">1997-09-28
+                                <p class="d-flex text-center title mb-0">Date of Birth:<span class="ms-2 value">1998-11-30
                                         </span>
                                 </p>
                             </div>

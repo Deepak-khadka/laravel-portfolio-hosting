@@ -17,7 +17,7 @@
                         <div class="col-10">
                             <div class="ms-xl-3">
                                 <div class="info-box">
-                                    <p class="d-flex text-center mb-0 title">Name:<span class="ms-2 value">Lal Bahadur BC
+                                    <p class="d-flex text-center mb-0 title">Name:<span class="ms-2 value">Deepak Khadka
                                                         </span>
                                     </p>
                                 </div>
@@ -34,7 +34,7 @@
                         <div class="col-10">
                             <div class="ms-xl-3">
                                 <div class="info-box">
-                                    <p class="d-flex text-center title mb-0">Date of Birth:<span class="ms-2 value">1997-09-28
+                                    <p class="d-flex text-center title mb-0">Date of Birth:<span class="ms-2 value">1998-11-30
                                                         </span>
                                     </p>
                                 </div>
@@ -52,7 +52,7 @@
                             <div class="ms-xl-3">
                                 <div class="info-box">
                                     <p class="d-flex mx-auto title mb-0">Mail:<span class="ms-2 value">
-                                                            lalbahdurbc2054@gmail.com
+                                                            rozankhadka159@gmail.com
                                                         </span>
                                     </p>
                                 </div>
@@ -70,7 +70,7 @@
                             <div class="ms-xl-3">
                                 <div class="info-box">
                                     <p class="d-flex mx-auto title mb-0">Phone Number:<span class="ms-2 fs-6 value">
-                                                            9865818795
+                                                             9868284426
                                                         </span>
                                     </p>
                                 </div>
@@ -89,7 +89,7 @@
                                 <div class="info-box">
                                     <p class="d-flex mx-auto title mb-0">Website:<a href="#"
                                                                                     class=" text-decoration-none  ms-2 fs-6 value">
-                                            lalbahadurbc.com.np
+                                            deepak-khadka.com.np
                                         </a>
                                     </p>
                                 </div>
