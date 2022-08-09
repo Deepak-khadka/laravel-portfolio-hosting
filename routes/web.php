@@ -20,6 +20,9 @@ Route::get('/secure-login', [ LoginController::class, 'showLoginForm'])->name('l
 Route::post('/secure-login', [ LoginController::class, 'attemptLogin'])->name('login');
 Route::get('/logout', [ LoginController::class, 'logout'])->name('logout');
 
+/* Load react component in this page */
+Route::get('/react/index', [HomeController::class, 'loadReactPage']);
+
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('pages/{pageName}', [HomeController::class, 'getPageName'])->name('get-page-name');

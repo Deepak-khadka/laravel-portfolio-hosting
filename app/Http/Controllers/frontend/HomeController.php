@@ -45,4 +45,9 @@ class HomeController extends Controller
         return redirect()->back();
 
     }
+
+    public function loadReactPage()
+    {
+        return view('frontend.react.index');
+    }
 }
